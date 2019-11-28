@@ -21,14 +21,14 @@ function system_hide_message()
 
 function system_is_live()
 {
-    var error_msg = "<button class='btn btn-success' style='position: fixed;padding-top: 40px;width: 60px;'>LIVE</button>";
+    var error_msg = "<button class='btn btn-success' style='position: fixed;width: 60px;'>LIVE</button>";
     $("#show_live").html(error_msg);
 
 }
 
 function system_is_down()
 {
-    var error_msg = "<button class='btn btn-danger' style='position: fixed;padding-top: 40px;width: 60px;'>Down</button>";
+    var error_msg = "<button class='btn btn-danger' style='position: fixed;width: 60px;'>Down</button>";
     $("#show_live").html(error_msg);
 
 }
